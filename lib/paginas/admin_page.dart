@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant_sullu_app/paginas/menu_page.dart';
 import 'package:restaurant_sullu_app/widgets/main_button.dart';
 
 class AdminPage extends StatelessWidget {
