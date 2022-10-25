@@ -81,26 +81,26 @@ class _LoginPageState extends State<LoginPage> {
                   height: 50,
                   child: Row(
                     children: [
-                      Expanded(
-                        child: GestureDetector(
-                          onTap: () {
-                            setState(() {
-                              opcionSeleccionada = 'adm';
-                            });
-                          },
-                          child: Container(
-                            color: opcionSeleccionada == 'adm'
-                                ? Colors.orange
-                                : Colors.orange.shade200,
-                            child: const Center(
-                              child: Text(
-                                'Adm',
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
+                      // Expanded(
+                      //   child: GestureDetector(
+                      //     onTap: () {
+                      //       setState(() {
+                      //         opcionSeleccionada = 'adm';
+                      //       });
+                      //     },
+                      //     child: Container(
+                      //       color: opcionSeleccionada == 'adm'
+                      //           ? Colors.orange
+                      //           : Colors.orange.shade200,
+                      //       child: const Center(
+                      //         child: Text(
+                      //           'Adm',
+                      //           style: TextStyle(color: Colors.white),
+                      //         ),
+                      //       ),
+                      //     ),
+                      //   ),
+                      // ),
                       Expanded(
                         child: GestureDetector(
                           onTap: () {

@@ -299,12 +299,12 @@ class __DialogProductoState extends State<_DialogProducto> {
             child: Row(
               children: [
                 SizedBox(
-                  height: 100,
-                  width: 150,
-                  child: Center(
-                    child: Text(widget.producto.nombre),
-                  ),
-                ),
+                    height: 200,
+                    width: 150,
+                    child: Image.asset(
+                      'assets/${widget.producto.fotoProducto}',
+                      fit: BoxFit.cover,
+                    )),
                 const SizedBox(
                   width: 16,
                 ),
